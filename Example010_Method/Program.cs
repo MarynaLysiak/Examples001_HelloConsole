@@ -17,6 +17,7 @@ while (index < n)
     if (array[index] == find)
     {
         Console.WriteLine(index);
+        break //останавливает код после первого найденного числа (иначе выведет все из массива) 
     }
     index++;
 }
