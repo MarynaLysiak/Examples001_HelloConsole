@@ -36,4 +36,15 @@ string Method4(int count, string text)
     return result;
 }
 string res = Method4(10, "abc");
-System.Console.WriteLine(res);
+// System.Console.WriteLine(res);
+
+// Задача с вложенным циклом For для вывода таблицы умножения
+
+for (int i = 2; i <= 10 ; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        System.Console.WriteLine($"{i} * {j} = {i*j}");
+    }
+    System.Console.WriteLine();
+}
